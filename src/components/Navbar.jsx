@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
     <div className="container-fluid fixed-top">
-            <div className="container topbar bg-primary d-none d-lg-block">
+            <div className="container topbar  d-none d-lg-block" style={{backgroundColor: "#FFB6C1"}}>
                 <div className="d-flex justify-content-between">
                     <div className="top-info ps-2">
                         <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" className="text-white">123 Street, New York</a></small>
@@ -19,7 +19,7 @@ function Navbar() {
             </div>
             <div className="container px-0">
                 <nav className="navbar navbar-light bg-white navbar-expand-xl">
-                    <Link to="/" className="navbar-brand"><h1 className="text-primary display-6">Fruitables</h1></Link>
+                    <Link to="/" className="navbar-brand"><h1 className="text-primary display-6">{`Lovey's Sweet Pastry`}</h1></Link>
                     {/* <a href="index.html" className="navbar-brand"><h1 className="text-primary display-6">Fruitables</h1></a> */}
                     <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="fa fa-bars text-primary"></span>
@@ -28,7 +28,7 @@ function Navbar() {
                         <div className="navbar-nav mx-auto">
                             <Link to="/" className="nav-item nav-link">Home</Link>
                             <Link to="/shop" className="nav-item nav-link">Shop</Link>
-                            <Link to="/shop-details" className="nav-item nav-link">Shop Detail</Link>
+                            {/* <Link to="/shop-details" className="nav-item nav-link">Shop Detail</Link> */}
                             <div className="nav-item dropdown">
                                  <Link to="/cart" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu m-0 bg-secondary rounded-0">

@@ -1,5 +1,5 @@
-import Item1 from '../assets/img/hero-img-1.png';
-import Item2 from '../assets/img/hero-img-2.jpg';
+import Item1 from '../assets/img/2024-03-23 09.36.45.jpg';
+import Item2 from '../assets/img/2024-03-23 09.35.42.jpg';
 
 function Hero() {
 	return (
@@ -10,10 +10,10 @@ function Hero() {
 				<div className="row g-5 align-items-center">
 					<div className="col-md-12 col-lg-7">
 						<h4 className="mb-3 text-secondary">
-							100% Organic Foods
+							100% Organic Cakes
 						</h4>
 						<h1 className="mb-5 display-3 text-primary">
-							Organic Veggies & Fruits Foods
+							Best Cakes for Your Occassions
 						</h1>
 						<div className="position-relative mx-auto">
 							<input
@@ -36,10 +36,11 @@ function Hero() {
 							className="carousel slide position-relative"
 							data-bs-ride="carousel"
 						>
-							<div className="carousel-inner" role="listbox">
+							<div className="carousel-inner" role="listbox" style={{height:"500px", width:"500px"}}>
 								<div className="carousel-item active rounded">
 									<img
 										src={Item1}
+										style={{height:"100px", width:"200px"}}
 										className="img-fluid w-100 h-100 bg-secondary rounded"
 										alt="First slide"
 									/>
@@ -53,6 +54,7 @@ function Hero() {
 								<div className="carousel-item rounded">
 									<img
 										src={Item2}
+										style={{height:"100px", width:"200px"}}
 										className="img-fluid w-100 h-100 rounded"
 										alt="Second slide"
 									/>
@@ -105,8 +107,8 @@ function Hero() {
                                 <i className="fas fa-car-side fa-3x text-white"></i>
                             </div>
                             <div className="featurs-content text-center">
-                                <h5>Free Shipping</h5>
-                                <p className="mb-0">Free on order over $300</p>
+                                <h5>Shipping</h5>
+                                <p className="mb-0">Deliver to Your Home with Trusted Drivers</p>
                             </div>
                         </div>
                     </div>
@@ -117,7 +119,7 @@ function Hero() {
                             </div>
                             <div className="featurs-content text-center">
                                 <h5>Security Payment</h5>
-                                <p className="mb-0">100% security payment</p>
+                                <p className="mb-0">Payment on Delivery or While Ordering</p>
                             </div>
                         </div>
                     </div>
@@ -127,8 +129,8 @@ function Hero() {
                                 <i className="fas fa-exchange-alt fa-3x text-white"></i>
                             </div>
                             <div className="featurs-content text-center">
-                                <h5>30 Day Return</h5>
-                                <p className="mb-0">30 day money guarantee</p>
+                                <h5>Money Return</h5>
+                                <p className="mb-0">Return on Dissatisfaction</p>
                             </div>
                         </div>
                     </div>
@@ -138,8 +140,8 @@ function Hero() {
                                 <i className="fa fa-phone-alt fa-3x text-white"></i>
                             </div>
                             <div className="featurs-content text-center">
-                                <h5>24/7 Support</h5>
-                                <p className="mb-0">Support every time fast</p>
+                                <h5>24/7 Availability</h5>
+                                <p className="mb-0">Will be Delivery Anytime.</p>
                             </div>
                         </div>
                     </div>

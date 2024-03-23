@@ -1,6 +1,7 @@
 import Vegetable2 from './assets/img/vegetable-item-2.jpg';
 import Vegetable3 from './assets/img/vegetable-item-3.png';
 import Vegetable5 from './assets/img/vegetable-item-5.jpg';
+
 function Cart() {
   return (
     <div className="container-fluid py-5">
