@@ -1,5 +1,6 @@
-import Item1 from '../assets/img/2024-03-23 09.36.45.jpg';
-import Item2 from '../assets/img/2024-03-23 09.35.42.jpg';
+import Item1 from '../assets/img/2024-03-23 09.35.42.jpg';
+import Item2 from '../assets/img/2024-03-23 09.35.17.jpg';
+import Item3 from '../assets/img/2024-03-18 21.01.14.jpg';
 
 function Hero() {
 	return (
@@ -48,7 +49,21 @@ function Hero() {
 										href="#"
 										className="btn px-4 py-2 text-white rounded"
 									>
-										Fruites
+										Cup Cakes
+									</a>
+								</div>
+								<div className="carousel-item rounded">
+									<img
+										src={Item3}
+										style={{height:"100px", width:"200px"}}
+										className="img-fluid w-100 h-100 rounded"
+										alt="Second slide"
+									/>
+									<a
+										href="#"
+										className="btn px-4 py-2 text-white rounded"
+									>
+										Mini + Cup Cakes
 									</a>
 								</div>
 								<div className="carousel-item rounded">
@@ -62,7 +77,7 @@ function Hero() {
 										href="#"
 										className="btn px-4 py-2 text-white rounded"
 									>
-										Vesitables
+										Mini Cakes
 									</a>
 								</div>
 							</div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { brandName } from "../data/services"
 
 function Navbar() {
   return (
@@ -19,7 +20,7 @@ function Navbar() {
             </div>
             <div className="container px-0">
                 <nav className="navbar navbar-light bg-white navbar-expand-xl">
-                    <Link to="/" className="navbar-brand"><h1 className="text-primary display-6">{`Lovey's Sweet Pastry`}</h1></Link>
+                    <Link to="/" className="navbar-brand"><h1 className="text-primary display-6">{brandName}</h1></Link>
                     {/* <a href="index.html" className="navbar-brand"><h1 className="text-primary display-6">Fruitables</h1></a> */}
                     <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="fa fa-bars text-primary"></span>

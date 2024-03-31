@@ -23,7 +23,7 @@ function Contact() {
                                 <input type="text" className="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name" />
                                 <input type="email" className="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email" />
                                 <textarea className="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
-                                <button className="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">Submit</button>
+                                <button className="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="button" onClick={() => alert("You message is Sent !!!")}>Submit</button>
                             </form>
                         </div>
                         <div className="col-lg-5">
@@ -46,6 +46,7 @@ function Contact() {
                                 <div>
                                     <h4>Telephone</h4>
                                     <p className="mb-2">+251986032111</p>
+                                    <p className="mb-2">+251910202912</p>
                                 </div>
                             </div>
                         </div>

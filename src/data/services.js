@@ -1,3 +1,6 @@
+export const brandName = "Lovey's Pastry";
+export const moto = "You Deserve Sweet Things";
+
 export const generic = {
 	mini: {
 		title: "Mini-Cake",
@@ -36,10 +39,14 @@ export const non_fasting = {
 		"Bombolino",
 		"Tiramisu",
 		"Sambusa",
+		"Cinnammon roll",
+		"Pound Cake",
 		"Cookies",
 		"Mini Pizza",
 		"Fruits",
-		"Meat Roll",
+		"Spring Roll",
+		"Flavour Drinks",
+		"Water",
 	],
 };
 
@@ -57,6 +64,10 @@ export const fasting = {
 		"Cookies",
 		"Fruits",
 		"Vegg Roll",
+		"Cinnammon roll",
+		"Orange Cake",
+		"Flavour Drinks",
+		"Water",
 	],
 };
 
@@ -86,7 +97,7 @@ export const special = {
 	},
 
 	picnic: {
-		title: "Picnic Package",
+		title: "Weekend Package",
 		price: 3500,
 		description: [
 			"One 500g round cake with a custom flavour and note",

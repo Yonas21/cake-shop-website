@@ -1,10 +1,10 @@
 import Item5 from '../assets/img/2024-03-18 20.58.22.jpg';
 import Item1 from '../assets/img/2024-03-23 09.35.47.jpg';
-import Item2 from '../assets/img/2024-03-23 09.38.15.jpg';
+import Item2 from '../assets/img/2024-03-23 09.36.45.jpg';
 import Item3 from '../assets/img/2024-03-23 09.39.39.jpg';
 import Item4 from '../assets/img/2024-03-18 21.01.14.jpg';
 import Item6 from '../assets/img/2024-03-23 09.39.06.jpg';
-import Item7 from '../assets/img/2024-03-23 09.35.42.jpg';
+// import Item7 from '../assets/img/2024-03-23 09.35.42.jpg';
 import Item8 from '../assets/img/2024-03-23 09.35.17.jpg';
 import { generic } from '../data/services';
 function ItemList() {
@@ -135,7 +135,7 @@ return (
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4 col-xl-3">
+                                {/* <div className="col-md-6 col-lg-4 col-xl-3">
                                     <div className="rounded position-relative fruite-item">
                                         <div className="fruite-img">
                                             <img src={Item5} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
@@ -218,7 +218,7 @@ return (
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

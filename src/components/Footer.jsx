@@ -1,4 +1,5 @@
 import PaymentLogo from '../assets/img/payment.png'
+import { brandName, moto } from '../data/services'
 function Footer() {
   return (
     <div className="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
@@ -7,8 +8,8 @@ function Footer() {
                     <div className="row g-4">
                         <div className="col-lg-3">
                             <a href="#">
-                                <h1 className="text-primary mb-0">Fruitables</h1>
-                                <p className="text-secondary mb-0">Fresh products</p>
+                                <h1 className="text-primary mb-0">{brandName}</h1>
+                                <p className="text-secondary mb-0">{moto}</p>
                             </a>
                         </div>
                         <div className="col-lg-6">
