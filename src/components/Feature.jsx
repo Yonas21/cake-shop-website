@@ -1,9 +1,8 @@
 import Item1 from "../assets/img/non-fasting.png";
 import Item2 from "../assets/img/fasting.png";
-import Item6 from "../assets/img/Dessert.jpeg";
-import Item3 from "../assets/img/2024-03-23 09.38.24.jpg";
-import Item4 from "../assets/img/2024-03-23 09.39.00.jpg";
-import Item5 from "../assets/img/2024-03-23 09.39.35.jpg";
+import Item3 from "../assets/img/birthday.jpg";
+import Item4 from "../assets/img/couple.jpg";
+import Item5 from "../assets/img/weekend.jpg";
 import { fasting, non_fasting, special } from "../data/services";
 
 function Feature() {
@@ -242,45 +241,6 @@ function Feature() {
 					</div>
 
 
-					<div className="col-md-6 col-lg-4">
-						<a href="#">
-							<div className="service-item bg-dark rounded border border-dark">
-								<img
-									src={Item6}
-                                    style={{height:"300px", width:"200px"}}
-									className="img-fluid rounded-top w-100"
-									alt=""
-								/>
-								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-light text-center p-4 rounded">
-										<h5 className="text-primary">
-											{`Cookies`}
-										</h5>
-										<h3 className="mb-0">
-											{`400 Per 1Kg`}
-										</h3>
-									</div>
-								</div>
-								<div>
-									{/* <ul className="nav d-inline-flex text-center mb-5">
-										{fasting.includes.map((item, i) => (
-											<li key={i} className="nav-item">
-												<a
-													className="d-flex m-2 py-2 bg-light rounded px-2"
-													data-bs-toggle="pill"
-													href="#tab-1"
-												>
-													<span className="text-dark">
-														{item}
-													</span>
-												</a>
-											</li>
-										))}
-									</ul> */}
-								</div>
-							</div>
-						</a>
-					</div>
 					<div className="col-md-6 col-lg-4"></div>
 				</div>
 

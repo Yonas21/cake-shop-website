@@ -4,7 +4,7 @@ import Item2 from '../assets/img/2024-03-23 09.36.45.jpg';
 import Item3 from '../assets/img/2024-03-23 09.39.39.jpg';
 import Item4 from '../assets/img/2024-03-18 21.01.14.jpg';
 import Item6 from '../assets/img/2024-03-23 09.39.06.jpg';
-// import Item7 from '../assets/img/2024-03-23 09.35.42.jpg';
+import Item7 from "../assets/img/Dessert.jpeg";
 import Item8 from '../assets/img/2024-03-23 09.35.17.jpg';
 import { generic } from '../data/services';
 function ItemList() {
@@ -24,7 +24,7 @@ return (
                                 <span className="text-dark" style={{width: "130px" }}>All Categories</span>
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
                                 <span className="text-dark" style={{width: "130px" }}>Vanilla</span>
                             </a>
@@ -43,7 +43,7 @@ return (
                             <a className="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
                                 <span className="text-dark" style={{width: "130px" }}>Local</span>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
@@ -58,7 +58,7 @@ return (
                                             <img src={Item8}
                                                 className="img-fluid w-100 rounded-top" style={{height:"300px", width:"200px"}} alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute" style={{top: "10px" , left: "10px" }}>Mini Cake</div>
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute" style={{top: "10px" , left: "10px" }}>Mini Cake</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>{generic.mini.title}</h4>
                                             <p>{generic.mini.description}</p>
@@ -78,7 +78,7 @@ return (
                                             <img src={Item2} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Cup Cake</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>{generic.cup_cake.title}</h4>
@@ -99,7 +99,7 @@ return (
                                             <img src={Item3} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Mini & Cup Cake</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>{generic.mini_cup.title}</h4>
@@ -120,7 +120,7 @@ return (
                                             <img src={Item1} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Slice Cake</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>{generic.slice.title}</h4>
@@ -135,61 +135,20 @@ return (
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-md-6 col-lg-4 col-xl-3">
-                                    <div className="rounded position-relative fruite-item">
-                                        <div className="fruite-img">
-                                            <img src={Item5} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
-                                                alt="" />
-                                        </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                            style={{top: "10px" , left: "10px" }}>Mini Cake</div>
-                                        <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>{generic.mini.title}</h4>
-                                            <p>{generic.mini.description}</p>
-                                            <div className="d-flex justify-content-between flex-lg-wrap">
-                                                <p className="text-dark fs-5 fw-bold mb-0">{generic.mini.price} ETB</p>
-                                                <a href="#"
-                                                    className="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                        className="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                    cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-4 col-xl-3">
-                                    <div className="rounded position-relative fruite-item">
-                                        <div className="fruite-img">
-                                            <img src={Item6} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
-                                                alt="" />
-                                        </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                            style={{top: "10px" , left: "10px" }}>Mini Cup Cake</div>
-                                        <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>{generic.mini_cup.title}</h4>
-                                            <p>{generic.mini_cup.description}</p>
-                                            <div className="d-flex justify-content-between flex-lg-wrap">
-                                                <p className="text-dark fs-5 fw-bold mb-0">{generic.mini_cup.price}ETB / {generic.mini_cup.quantity}</p>
-                                                <a href="#"
-                                                    className="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                        className="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                    cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 col-lg-4 col-xl-3">
+
+                                 <div className="col-md-6 col-lg-4 col-xl-3">
                                     <div className="rounded position-relative fruite-item">
                                         <div className="fruite-img">
                                             <img src={Item7} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                            style={{top: "10px" , left: "10px" }}>Cup Cake</div>
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
+                                            style={{top: "10px" , left: "10px" }}>Cookies</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>{generic.cup_cake.title}</h4>
-                                            <p>{generic.cup_cake.description}</p>
+                                            <h4>{`Cookies`}</h4>
+                                            <p>Organic and Fresh Cookies for Different Occassions</p>
                                             <div className="d-flex justify-content-between flex-lg-wrap">
-                                                <p className="text-dark fs-5 fw-bold mb-0">{generic.cup_cake.price} / {generic.cup_cake.quantity} Pieces</p>
+                                                <p className="text-dark fs-5 fw-bold mb-0">{400} ETB / 1Kg</p>
                                                 <a href="#"
                                                     className="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                         className="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -198,32 +157,13 @@ return (
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-lg-4 col-xl-3">
-                                    <div className="rounded position-relative fruite-item">
-                                        <div className="fruite-img">
-                                            <img src={Item8} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
-                                                alt="" />
-                                        </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
-                                            style={{top: "10px" , left: "10px" }}>Slice Cake</div>
-                                        <div className="p-4 border border-secondary border-top-0 rounded-bottom">
-                                            <h4>{generic.slice.title}</h4>
-                                            <p>{generic.slice.description}</p>
-                                            <div className="d-flex justify-content-between flex-lg-wrap">
-                                                <p className="text-dark fs-5 fw-bold mb-0">{generic.slice.price} ETB / {generic.slice.quantity}</p>
-                                                <a href="#"
-                                                    className="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                        className="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                    cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                                
+        
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab-2" className="tab-pane fade show p-0">
+                {/* <div id="tab-2" className="tab-pane fade show p-0">
                     <div className="row g-4">
                         <div className="col-lg-12">
                             <div className="row g-4">
@@ -233,7 +173,7 @@ return (
                                             <img src={Item6} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Vanilla</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Vanilla Mini & Cup Cakes</h4>
@@ -254,7 +194,7 @@ return (
                                             <img src = {Item2} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Vanilla</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Sweet Vanilla Cup Cakes</h4>
@@ -283,7 +223,7 @@ return (
                                             <img src={Item1} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Chocolate</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Chocolate Slice Cakes</h4>
@@ -304,7 +244,7 @@ return (
                                             <img src={Item6} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Light Chocolate</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Chocolate Mini Cake</h4>
@@ -333,7 +273,7 @@ return (
                                             <img src={Item5} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>StrawBerry</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>StrawBerry Cakes</h4>
@@ -354,7 +294,7 @@ return (
                                             <img src={Item4} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Fruits</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>StrawBerry Mini Cakes</h4>
@@ -383,7 +323,7 @@ return (
                                             <img src={Item3} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Local Cakes</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Mini & Cup Cakes</h4>
@@ -404,7 +344,7 @@ return (
                                             <img src={Item2} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Local Cakes</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Special Cup Cakes</h4>
@@ -425,7 +365,7 @@ return (
                                             <img src={Item1} style={{height:"300px", width:"200px"}} className="img-fluid w-100 rounded-top"
                                                 alt="" />
                                         </div>
-                                        <div className="text-white bg-secondary px-3 py-1 rounded position-absolute"
+                                        <div className="text-white bg-pink px-3 py-1 rounded position-absolute"
                                             style={{top: "10px" , left: "10px" }}>Local Chocolate Cakes</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>Local Sliced Chocolate Cakes</h4>
@@ -443,7 +383,7 @@ return (
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

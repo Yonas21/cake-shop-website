@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
     <div className="container-fluid fixed-top">
-            <div className="container topbar  d-none d-lg-block" style={{backgroundColor: "#FFB6C1"}}>
+            <div className="container topbar bg-pink  d-none d-lg-block">
                 <div className="d-flex justify-content-between">
                     <div className="top-info ps-2">
                         <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" className="text-white">123 Street, New York</a></small>
@@ -28,16 +28,16 @@ function Navbar() {
                     <div className="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div className="navbar-nav mx-auto">
                             <Link to="/" className="nav-item nav-link">Home</Link>
-                            <Link to="/shop" className="nav-item nav-link">Shop</Link>
+                            {/* <Link to="/shop" className="nav-item nav-link">Shop</Link> */}
                             {/* <Link to="/shop-details" className="nav-item nav-link">Shop Detail</Link> */}
-                            <div className="nav-item dropdown">
+                            {/* <div className="nav-item dropdown">
                                  <Link to="/cart" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu m-0 bg-secondary rounded-0">
                                     <Link to="/cart" className="dropdown-item">Cart</Link>
                                     <Link to="/checkout" className="dropdown-item">Checkout</Link>
                                     <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* <a href="contact.html" className="nav-item nav-link">Contact</a> */}
                             <Link to="/contact" className="nav-item nav-link">Contact</Link>
 

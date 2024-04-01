@@ -9,7 +9,7 @@ function Footer() {
                         <div className="col-lg-3">
                             <a href="#">
                                 <h1 className="text-primary mb-0">{brandName}</h1>
-                                <p className="text-secondary mb-0">{moto}</p>
+                                <p className="text-pink mb-0">{moto}</p>
                             </a>
                         </div>
                         <div className="col-lg-6">
@@ -32,9 +32,7 @@ function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="text-light mb-3">Why People Like us!</h4>
-                            <p className="mb-4">typesetting, remaining essentially unchanged. It was 
-                                popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
-                            <a href="" className="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
+                            <p className="mb-4">quality driven, remaining essentially unchanged</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -62,9 +60,9 @@ function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="text-light mb-3">Contact</h4>
-                            <p>Address: 1429 Netus Rd, NY 48247</p>
-                            <p>Email: Example@gmail.com</p>
-                            <p>Phone: +0123 4567 8910</p>
+                            <p>Address: France Embassy, Addis Ababa, Ethiopia</p>
+                            <p>Email: fikergizachew21@gmail.com</p>
+                            <p>Phone: +251986032111</p>
                             <p>Payment Accepted</p>
                             <img src={PaymentLogo} className="img-fluid" alt="" />
                         </div>
