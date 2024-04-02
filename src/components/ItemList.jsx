@@ -146,7 +146,7 @@ return (
                                             style={{top: "10px" , left: "10px" }}>Cookies</div>
                                         <div className="p-4 border border-secondary border-top-0 rounded-bottom">
                                             <h4>{`Cookies`}</h4>
-                                            <p>Organic and Fresh Cookies for Different Occassions</p>
+                                            <p>Sweet Cookies for Your Occassions</p>
                                             <div className="d-flex justify-content-between flex-lg-wrap">
                                                 <p className="text-dark fs-5 fw-bold mb-0">{400} ETB / 1Kg</p>
                                                 <a href="#"

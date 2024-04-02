@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
     <div className="container-fluid fixed-top">
-            <div className="container topbar bg-pink  d-none d-lg-block">
+            {/* <div className="container topbar bg-pink  d-none d-lg-block">
                 <div className="d-flex justify-content-between">
                     <div className="top-info ps-2">
                         <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" className="text-white">123 Street, New York</a></small>
@@ -17,7 +17,7 @@ function Navbar() {
                         <a href="#" className="text-white"><small className="text-white ms-2">Sales and Refunds</small></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container px-0">
                 <nav className="navbar navbar-light bg-white navbar-expand-xl">
                     <Link to="/" className="navbar-brand"><h1 className="text-primary display-6">{brandName}</h1></Link>

@@ -1,4 +1,4 @@
-import PaymentLogo from '../assets/img/payment.png'
+// import PaymentLogo from '../assets/img/payment.png'
 import { brandName, moto } from '../data/services'
 function Footer() {
   return (
@@ -36,7 +36,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div className="d-flex flex-column text-start footer-item">
+                        {/* <div className="d-flex flex-column text-start footer-item">
                             <h4 className="text-light mb-3">Shop Info</h4>
                             <a className="btn-link" href="">About Us</a>
                             <a className="btn-link" href="">Contact Us</a>
@@ -44,10 +44,10 @@ function Footer() {
                             <a className="btn-link" href="">Terms & Condition</a>
                             <a className="btn-link" href="">Return Policy</a>
                             <a className="btn-link" href="">FAQs & Help</a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <div className="d-flex flex-column text-start footer-item">
+                        {/* <div className="d-flex flex-column text-start footer-item">
                             <h4 className="text-light mb-3">Account</h4>
                             <a className="btn-link" href="">My Account</a>
                             <a className="btn-link" href="">Shop details</a>
@@ -55,7 +55,7 @@ function Footer() {
                             <a className="btn-link" href="">Wishlist</a>
                             <a className="btn-link" href="">Order History</a>
                             <a className="btn-link" href="">International Orders</a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
@@ -63,8 +63,8 @@ function Footer() {
                             <p>Address: France Embassy, Addis Ababa, Ethiopia</p>
                             <p>Email: fikergizachew21@gmail.com</p>
                             <p>Phone: +251986032111</p>
-                            <p>Payment Accepted</p>
-                            <img src={PaymentLogo} className="img-fluid" alt="" />
+                            {/* <p>Payment Accepted</p> */}
+                            {/* <img src={PaymentLogo} className="img-fluid" alt="" /> */}
                         </div>
                     </div>
                 </div>

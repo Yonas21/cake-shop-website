@@ -23,7 +23,7 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-secondary text-center p-4 rounded">
+									<div className="service-content bg-pink text-center p-4 rounded">
 										<h5 className="text-white">
 											{special.birthday.title}
 										</h5>
@@ -35,7 +35,7 @@ function Feature() {
 								</div>
 								<div>
 									<ul className="nav d-inline-flex text-center mb-5">
-										{special.birthday.description.map(
+										{special.birthday.description.sort((a,b) =>a.length - b.length).map(
 											(item, i) => (
 												<li
 													key={i}
@@ -69,7 +69,7 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-secondary text-center p-4 rounded">
+									<div className="service-content bg-pink text-center p-4 rounded">
 										<h5 className="text-white">
 											{special.couple.title}
 										</h5>
@@ -81,7 +81,7 @@ function Feature() {
 								</div>
 								<div>
 									<ul className="nav d-inline-flex text-center mb-5">
-										{special.couple.description.map(
+										{special.couple.description.sort((a,b) =>a.length - b.length).map(
 											(item, i) => (
 												<li
 													key={i}
@@ -115,7 +115,7 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-secondary text-center p-4 rounded">
+									<div className="service-content bg-pink text-center p-4 rounded">
 										<h5 className="text-white">
 											{special.picnic.title}
 										</h5>
@@ -127,7 +127,7 @@ function Feature() {
 								</div>
 								<div>
 									<ul className="nav d-inline-flex text-center mb-5">
-										{special.picnic.description.map(
+										{special.picnic.description.sort((a,b) =>a.length - b.length).map(
 											(item, i) => (
 												<li
 													key={i}
@@ -161,7 +161,7 @@ function Feature() {
 					<div className="col-md-6 col-lg-4">
 						<a href="#">
 							<div
-								className="service-item bg-secondary rounded border border-secondary"
+								className="service-item bg-pink rounded border border-secondary"
 								style={{ height: "750px" }}
 							>
 								<img
@@ -182,7 +182,7 @@ function Feature() {
 								</div>
 								<div>
 									<ul className="nav d-inline-flex text-center mb-5">
-										{non_fasting.includes.map((item, i) => (
+										{non_fasting.includes.sort((a,b) =>a.length - b.length).map((item, i) => (
 											<li key={i} className="nav-item">
 												<a
 													className="d-flex m-2 py-2 bg-light rounded px-2"
@@ -202,7 +202,7 @@ function Feature() {
 					</div>
 					<div className="col-md-6 col-lg-4">
 						<a href="#">
-							<div className="service-item bg-dark rounded border border-dark">
+							<div className="service-item bg-pink rounded border border-dark">
 								<img
 									src={Item2}
                                     style={{height:"300px", width:"200px"}}
@@ -210,7 +210,7 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-light text-center p-4 rounded">
+									<div className="service-content bg-pink text-center p-4 rounded">
 										<h5 className="text-primary">
 											{fasting.title}
 										</h5>
@@ -221,7 +221,7 @@ function Feature() {
 								</div>
 								<div>
 									<ul className="nav d-inline-flex text-center mb-5">
-										{fasting.includes.map((item, i) => (
+										{fasting.includes.sort((a,b) =>a.length - b.length).map((item, i) => (
 											<li key={i} className="nav-item">
 												<a
 													className="d-flex m-2 py-2 bg-light rounded px-2"

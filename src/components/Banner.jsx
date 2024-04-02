@@ -12,7 +12,7 @@ function Banner() {
                             <a href="#" className="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <div className="position-relative">
                             <img src="img/baner-1.png" className="img-fluid w-100 rounded" alt="" />
                             <div className="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style={{width: "140px", height: "140px", top: 0, left: 0}}>
@@ -23,7 +23,7 @@ function Banner() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

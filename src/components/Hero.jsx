@@ -10,7 +10,7 @@ function Hero() {
 			<div className="container py-5">
 				<div className="row g-5 align-items-center">
 					<div className="col-md-12 col-lg-7">
-						<h4 className="mb-3 text-secondary">
+						<h4 className="mb-3 text-pink">
 							100% Organic Cakes
 						</h4>
 						<h1 className="mb-5 display-3 text-primary">
