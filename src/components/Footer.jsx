@@ -60,9 +60,12 @@ function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="text-light mb-3">Contact</h4>
-                            <p>Address: France Embassy, Addis Ababa, Ethiopia</p>
+                            <p>Address: Addis Ababa, Ethiopia</p>
                             <p>Email: fikergizachew21@gmail.com</p>
                             <p>Phone: +251986032111</p>
+                            <a href="https://t.me/lovey_sweet_cakes"><i className="bi bi-telegram text-light"></i></a> <span style={{marginLeft:"20px"}}></span>
+                            <a href="#"><i className="bi bi-instagram text-light"></i> <br/></a>
+                            
                             {/* <p>Payment Accepted</p> */}
                             {/* <img src={PaymentLogo} className="img-fluid" alt="" /> */}
                         </div>

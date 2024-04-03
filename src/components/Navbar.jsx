@@ -42,7 +42,7 @@ function Navbar() {
                             <Link to="/contact" className="nav-item nav-link">Contact</Link>
 
                         </div>
-                        <div className="d-flex m-3 me-0">
+                        <div className="d-none d-lg-flex m-3 me-0">
                             <button className="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search text-primary"></i></button>
                             <a href="#" className="position-relative me-4 my-auto">
                                 <i className="fa fa-shopping-bag fa-2x"></i>

@@ -23,8 +23,8 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-pink text-center p-4 rounded">
-										<h5 className="text-white">
+									<div className="service-content bg-light text-center p-4 rounded">
+										<h5 className="text-primary">
 											{special.birthday.title}
 										</h5>
 										<h3 className="mb-0">
@@ -69,8 +69,8 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-pink text-center p-4 rounded">
-										<h5 className="text-white">
+									<div className="service-content bg-light text-center p-4 rounded">
+										<h5 className="text-primary">
 											{special.couple.title}
 										</h5>
 										<h3 className="mb-0">
@@ -115,8 +115,8 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-pink text-center p-4 rounded">
-										<h5 className="text-white">
+									<div className="service-content bg-light text-center p-4 rounded">
+										<h5 className="text-primary">
 											{special.picnic.title}
 										</h5>
 										<h3 className="mb-0">
@@ -162,7 +162,7 @@ function Feature() {
 						<a href="#">
 							<div
 								className="service-item bg-pink rounded border border-secondary"
-								style={{ height: "750px" }}
+								style={{ height: "780px" }}
 							>
 								<img
 									src={Item1}
@@ -171,8 +171,8 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-primary text-center p-4 rounded">
-										<h5 className="text-white">
+									<div className="service-content bg-light text-center p-4 rounded">
+										<h5 className="text-primary">
 											{non_fasting.title}
 										</h5>
 										<h3 className="mb-0">
@@ -210,7 +210,7 @@ function Feature() {
 									alt=""
 								/>
 								<div className="px-4 rounded-bottom">
-									<div className="service-content bg-pink text-center p-4 rounded">
+									<div className="service-content bg-light text-center p-4 rounded">
 										<h5 className="text-primary">
 											{fasting.title}
 										</h5>
